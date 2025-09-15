@@ -1,0 +1,7 @@
+.List{
+    width: 500px;
+    height: 100px;
+    margin: 50px auto; /* auto left & right centers it */
+    background-color: rgb(197, 207, 207);
+    text-align: center; /* centers text inside */
+}

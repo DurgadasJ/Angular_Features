@@ -1,0 +1,12 @@
+<p>home s works!</p>
+<input type="number" [(ngModel)]="a" placeholder="Enter first number">
+<input type="number" [(ngModel)]="b" placeholder="Enter Second number">
+
+<button (click)="calculate()">Add</button>
+
+<p>Result :{{result}}</p>
+
+<ul>
+    <li *ngFor="let post of posts">{{post.title}}</li>
+</ul>
+

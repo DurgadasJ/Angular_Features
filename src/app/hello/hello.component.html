@@ -1,0 +1,26 @@
+<p>Hello {{name}}, component works!</p>
+<input [(ngModel)]='name' placeholder="Enter any name">
+
+
+<button (click)="greet()">Greet</button>
+<p>{{message}}</p>
+
+<p>Unordered List</p>
+<ul>
+    <li *ngFor="let user of users">{{user}}</li>
+</ul>
+
+
+<div class="List">
+    <p>Ordered List</p>
+
+    <ol>
+        <li >{{items}}</li>
+        <li >{{items}}</li>
+        <li >{{items}}</li>
+    </ol>
+</div>
+
+<button (click)="toggle()">Toggle Greet</button>
+
+<p *ngIf="show">Hello {{name}}, Toggle Working</p>
